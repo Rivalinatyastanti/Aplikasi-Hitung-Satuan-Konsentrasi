@@ -15,7 +15,7 @@ selected = st.sidebar.selectbox('',
 def home():
     #Halaman Perkenalan Kelompok
     if selected == 'Perkenalan Kelompok':
-        st.header('Disusun oleh : Kelompok 5', divider='rainbow')
+        st.header('Disusun oleh : Kelompok 5 (1C-Analisis Kimia)', divider='rainbow')
         st.write('1. Amirah Alifah Adilah (2360069) \n',
                  '2. Irda Ananthi Rahmatika (2360148) \n',
                 '3. Muhammad Atilla Devito (2360182)\n',

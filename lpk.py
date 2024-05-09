@@ -15,12 +15,8 @@ selected = st.sidebar.selectbox('',
 def home():
     #Halaman Perkenalan Kelompok
     if selected == 'Perkenalan Kelompok':
-        st.header('Disusun oleh : Kelompok 5 (1C-Analisis Kimia)', divider='rainbow')
-        st.write('1. Amirah Alifah Adilah (2360069) \n',
-                 '2. Irda Ananthi Rahmatika (2360148) \n',
-                '3. Muhammad Atilla Devito (2360182)\n',
-                '4. Putri Ayu Salsabila (2360225) \n',
-                '5. Rivalina Tyastanti (2360244)')
+        if selected == 'Perkenalan Kelompok':
+        st.image('kelompok5.jpg',output_format="auto")
         
     #Halaman Perkenalan Aplikasi
     elif selected == 'Tentang Aplikasi':

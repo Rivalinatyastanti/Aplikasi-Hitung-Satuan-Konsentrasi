@@ -41,8 +41,8 @@ def home():
     #Halaman Hitung % b/b
     elif selected == 'Hitung Konsentrasi % b/b':
         st.header('Hitung Konsentrasi % b/b', divider='blue')
-        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (g)")
-        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (g)")
+        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (g)",format="%.4f")
+        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (g)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi % b/b")
         
         if hitung:
@@ -53,8 +53,8 @@ def home():
     #Halaman Hitung % v/v
     elif selected == 'Hitung Konsentrasi % v/v':
         st.header('Hitung Konsentrasi % v/v', divider='blue')
-        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (mL)")
-        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (mL)")
+        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (mL)",format="%.4f")
+        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (mL)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi % v/v")
         
         if hitung:
@@ -65,8 +65,8 @@ def home():
     #Halaman Hitung % b/v        
     elif selected == 'Hitung Konsentrasi % b/v':
         st.header('Hitung Konsentrasi % b/v', divider='blue')
-        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (g)")
-        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (mL)")
+        zat_terlarut = st.number_input("Masukkan Nilai Zat Terlarut (g)",format="%.4f")
+        zat_pelarut = st.number_input("Masukkan Nilai Zat Pelarut (mL)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi % b/v")
         
         if hitung:
@@ -77,9 +77,9 @@ def home():
     #Halaman Hitung Molaritas        
     elif selected == 'Hitung Konsentrasi Molaritas':
         st.header('Hitung Konsentrasi Molaritas', divider='blue')
-        massa = st.number_input("Masukkan Jumlah Massa (g)")
-        bm = st.number_input("Masukkan Nilai BM (g/mol)")
-        volume = st.number_input("Masukkan Jumlah Volume (L)")
+        massa = st.number_input("Masukkan Jumlah Massa (g)",format="%.4f")
+        bm = st.number_input("Masukkan Nilai BM (g/mol)",format="%.4f")
+        volume = st.number_input("Masukkan Jumlah Volume (L)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi Molaritas")
         
         if hitung:            
@@ -90,9 +90,9 @@ def home():
     #Halaman Hitung Normalitas        
     elif selected == 'Hitung Konsentrasi Normalitas':
         st.header('Hitung Konsentrasi Normalitas', divider='blue')
-        massa = st.number_input("Masukkan Jumlah Massa (g)")     
-        be = st.number_input("Masukkan Nilai BE (g/grek)")
-        volume = st.number_input("Masukkan Jumlah Volume (L)")
+        massa = st.number_input("Masukkan Jumlah Massa (g)",format="%.4f")    
+        be = st.number_input("Masukkan Nilai BE (g/grek)",format="%.4f")
+        volume = st.number_input("Masukkan Jumlah Volume (L)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi Normalitas")
         
         if hitung:
@@ -103,8 +103,8 @@ def home():
     #Halaman Hitung PPM
     elif selected == 'Hitung Konsentrasi PPM':
         st.header('Hitung Konsentrasi PPM', divider='blue')
-        massa = st.number_input("Masukkan Jumlah Massa (mg)")
-        volume = st.number_input("Masukkan Jumlah Volume (L)")
+        massa = st.number_input("Masukkan Jumlah Massa (mg)",format="%.4f")
+        volume = st.number_input("Masukkan Jumlah Volume (L)",format="%.4f")
         hitung = st.button("Hitung Konsentrasi PPM")
         
         if hitung:

@@ -15,7 +15,6 @@ selected = st.sidebar.selectbox('',
 def home():
     #Halaman Perkenalan Kelompok
     if selected == 'Perkenalan Kelompok':
-        if selected == 'Perkenalan Kelompok':
         st.image('kelompok5.jpg',output_format="auto")
         
     #Halaman Perkenalan Aplikasi

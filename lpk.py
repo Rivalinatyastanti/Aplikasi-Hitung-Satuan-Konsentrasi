@@ -38,7 +38,7 @@ def home():
         st.write('Konsentrasi larutan adalah jumlah zat yang terlarut dalam setiap satuan larutan atau pelarut. '
                 'Secara sederhana, konsentrasi larutan dapat memberikan gambaran atau sebuah informasi '
                 'tentang perbandingan jumlah zat terlarut dan jumlah pelarutnya.')
-        st.write('Web Aplikasi kami akan membantu untuk Menghitung Konsentrasi larutan dalam berbagai satuan. Selain itu, Web kami juga dapat membantu untuk Mengkonversi Satuan konsentrasi yang sudah diketahui menjadi Satuan Konsentrasi yang lain.')
+        st.write('Web Aplikasi kami akan membantu untuk Menghitung Konsentrasi larutan dalam berbagai Satuan. Selain itu, Web kami juga dapat membantu untuk Mengkonversi Satuan konsentrasi yang sudah diketahui menjadi Satuan Konsentrasi yang lain.')
         st.write('Selanjutnya, klik tanda ">" yang terletak dibagian kiri atas web kami untuk memilih menu tampilan yang telah disediakan.')
         st.subheader('Semoga Membantu✨✨✨')
     

@@ -161,13 +161,13 @@ def home():
             st.header('Konversi Molaritas ➡ Normalitas', divider='orange')
             st.write('Konversi dari molaritas ke normalitas dilakukan dengan mengalikan molaritas dengan faktor ekuivalen . Ini memungkinkan perubahan satuan dari jumlah zat terlarut per volume larutan dalam liter (mol/L) menjadi jumlah ekivalen zat terlarut per volume larutan dalam liter (grek/L).')
             st.latex(r''' \text{Normalitas} = {\text{Molaritas}}\times{\text{Faktor Ekuivalen}} ''')
-            molaritas = st.number_input("Masukkan Nilai Molaritas (mol/L)", key="molaritas_normalitas")
+            molaritas = st.number_input("Masukkan Nilai Molaritas (mol/L)", format="%.4f", key="molaritas_normalitas")
             faktor_ekuivalen = st.number_input("Masukkan Faktor Ekuivalen ", min_value= 1, key="fe_normalitas")
             hitung = st.button("Konversi menjadi Normalitas", key="hitung_normalitas")
 
             if hitung:
                 konsentrasi = molaritas * faktor_ekuivalen
-                konsentrasi_formatted = round(konsentrasi, 2)
+                konsentrasi_formatted = round(konsentrasi, 4)
                 st.success(f"Jadi, {molaritas} M = {konsentrasi_formatted} N")
 
 

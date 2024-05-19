@@ -126,7 +126,7 @@ def home():
 #Halaman Hitung ppm
         with tabs[5] :
             st.header('Hitung Konsentrasi ppm', divider='orange')
-            st.write("ppm adalah singkatan dari 'Parts Per Million' (Bagian Per Juta) Ini adalah satuan yang digunakan untuk mengukur konsentrasi atau jumlah keberadaan suatu zat dalam campuran, di mana satu bagian per juta mewakili 1 bagian dari 1 juta bagian total campuran.")
+            st.write("ppm adalah singkatan dari 'parts per million' (bagian per juta) Ini adalah satuan yang digunakan untuk mengukur konsentrasi atau jumlah keberadaan suatu zat dalam campuran, di mana satu bagian per juta mewakili 1 bagian dari 1 juta bagian total campuran.")
             st.write("ppm dapat digunakan untuk Mengukur konsentrasi logam berat dalam air minum, Mengontrol konsentrasi gas polutan dalam udara, dan Memantau tingkat zat kimia beracun dalam tanah di sekitar fasilitas industri.")
             st.latex(r''' \text{ppm} = \frac{\text{massa(mg)}}{\text{Volume(L)}} ''')
             massa = st.number_input("Masukkan Jumlah Massa (mg)", key="massa_ppm")
